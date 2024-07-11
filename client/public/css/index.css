@@ -1,12 +1,13 @@
 body {
    
-  background-image: url("/images/campus.png");
+  background-image: url("/images/maristimage.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 100vh; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #splash_title {
@@ -16,6 +17,7 @@ body {
   opacity: 0.85;
   text-shadow: 4px 4px 4px rgba(255, 255, 255);
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .menu_button {
@@ -25,9 +27,11 @@ body {
     cursor: pointer;
     text-align: center;
     user-select: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .background_button {
     border-radius: 12px;
     padding: 16px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

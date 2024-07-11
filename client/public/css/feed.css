@@ -9,36 +9,55 @@ header {
 	justify-content: space-between;
 	align-items: center;
 
-	background-color: red;
+	background-color: #ff0000;
 	font-size: 30px;
 	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main {
 	display: grid;
 	padding-top: 60px;
 	justify-content: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
-	position: absolute;
+	position: fixed;
 	left: 0px;
   bottom: 0px;
 	width: 100%;
 	background-color: red;
 	text-align: center;
 	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #portal_button {
 	position: fixed;
-	right: 30px;
-	top: 10px;
+	right: 167px;
+	top: 3px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#portal_button_text {
+    position: fixed;
+    right: 10px;
+    top: -28px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Foxchatter_text_Logo {
+    position: fixed;
+    left: 10px;
+    top: -28px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a {
-	color: blue;
-	text-decoration: none;
+	color: rgb(255, 0, 0);
+	text-decoration-line: black;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #redfox{
@@ -46,14 +65,17 @@ a {
 	float: left;
 	height: 50px;
 	bottom: 5px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #newsfeed {
 	max-width: 600px;
 	min-width: 600px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .feedImage {
 	max-width: 150px;
 	max-height: 150px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
