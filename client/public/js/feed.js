@@ -10,23 +10,23 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('cookie-popup').addEventListener('click', );
 });
 
-let currentStories = [];
+let currentFeed = [];
 
-    currentStories.push({
+    currentFeed.push({
         Title: 'Open Houses Available',
         Body: 'Open houses and campus tours being given, click for more info.',
         linkUrl: 'https://www.marist.edu/openhouse/',
         imageUrl: 'images/campus.png'
     });
 
-    currentStories.push({
+    currentFeed.push({
         Title: 'New menu',
         Body: 'The meal switch is official! Click here for the new menu items.',
         linkUrl: 'https://dineoncampus.com/marist',
         imageUrl: 'images/news_pic.jpg'
     });
 
-    currentStories.push({
+    currentFeed.push({
         Title: 'Brightspace info',
         Body: 'This is oficially our 2nd year of replacing Sekai with Brightspace, if you need assinstance click here.',
         linkUrl: 'https://my.de.marist.edu/brightspace-help',
@@ -50,6 +50,6 @@ let currentStories = [];
         newsfeedElement.innerHTML += itemHTML;
     }
 
-    currentStories.forEach(function(item) {
+    currentFeed.forEach(function(item) {
         displayItem(item);
     });
